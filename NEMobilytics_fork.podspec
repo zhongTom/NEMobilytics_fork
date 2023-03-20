@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://hubble.netease.com/"
   s.license      = { :type => "MIT", :file => "LICENSE"}
-  s.author             = { "jiachaohui" => "jiachaohui@corp.netease.com" }
+  s.author             = { 'qiyukf' => 'yunshangfu@126.com' }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/jiachaohui/NEMobilytics.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhongTom/NEMobilytics_fork.git", :tag => "#{s.version}" }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.vendored_frameworks = 'NEMobilytics.framework'
